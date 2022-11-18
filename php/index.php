@@ -7,10 +7,11 @@
     <title>Login</title>
 </head>
 <body>
-    <form>
-        Usuário:<input><br>
-        Senha:<input><br>
-        <button>Entra</button>
+    <form action="validar.php" method="post">
+        Usuário:<input name="usuario"><br>
+        Senha:<input name="senha" type="password"><br>
+        <button type="submit">Entrar</button>
+        <button type="reset">Limpar</button>
     </form>
 
     <footer>
