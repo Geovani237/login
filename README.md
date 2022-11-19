@@ -69,3 +69,11 @@ if(condição){
     resposta falsa 
 }
 ```
+#### Exemplo
+```php
+if($senha == 123 && $usuario == 'Geovani') {
+    echo "dados corretos";
+}else{
+    echo "dados incorretos";
+}
+```
