@@ -3,8 +3,9 @@ $usuario = $_POST['usuario'];
 $senha = $_POST['senha'];
 
 if($senha == 123 && $usuario == 'Geovani') {
-    echo "dados corretos";
+    header('Location: painel.php');
 }else{
-    echo "dados incorretos";
+    header('Location: usuario-invalido.php');
 }
+
 ?>
